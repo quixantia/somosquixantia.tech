@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box; 
+}
+body{
+  height: 100%;
+  width: auto;
+  background: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(../img/CPD-fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+form{
+  border-radius: 10px;
+}
+.grupo{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+}
+label{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+input, textarea{
+  padding: 20px 30px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #f0faf1;
+  color: #ffffff;
+  outline: none;
+}
+.formu-txt{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.formu-txt a{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn{
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgba(50, 36, 208, 0.822);
+}
+.return{
+  border-radius: 40px;
+  width: 90px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin: auto;
+}
+.return a{
+   text-decoration: none;
+   color: azure;
+}
+@media (min-width:720px){
+  #form{
+    display: flex;
+    width: 50vh;
+    margin: auto;
+    }
+    .return{
+      border-radius: 40px;
+      width: 90px;
+      height: 50px;
+      background-color: rgba(255, 255, 255, 0);
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-left: 45.5%;
+      margin-right: 48%;
+      padding: auto;
+    }
+    .return a{
+       text-decoration: none;
+       color: azure;
+       margin: auto;
+      }
+       
+}

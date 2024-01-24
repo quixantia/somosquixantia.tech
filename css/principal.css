@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+} 
+body{
+    height: 100%;
+    width: auto;
+    background: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.65)
+    ),url(../img/CPD-fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{ font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+h2{ font-size: 2em;
+    color:rgb(255, 255, 255);
+}
+h3{ font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+p{ font-size:0.75em;
+    color: rgb(255, 255, 255);
+}
+ul{ list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+button a:hover{
+    color: rgb(49, 124, 223);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    width: auto;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(5,7,12,0.75),
+        rgba(5,7,12,0.75)
+    ),url("../img/img3.jpg");
+    display: flex;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.logo{
+    font-size: 20px; 
+    margin: auto;
+    padding:25px 30px;
+    color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram{
+    display: flex;
+    margin: 15px -0.5px;
+    width: 90px;
+    height: 20px;
+}
+.instagram img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.youtube{
+    display: flex;
+    margin: 10px -10px;
+    margin-left: -40px;
+    width: 90px;
+    height: 40px;
+}
+.youtube img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+#galery{
+    display: none;
+
+}
+#galery img{
+    display: none;
+  
+}
+#galery img:hover{
+    display: none;
+    cursor: pointer;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#quix2{
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+    width: auto;
+}
+#quix2 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+#quix2 p{
+    width: 95%;
+    padding-left: 15px;
+}
+#quix3{
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+}
+#quix2 video{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+#productos{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    width: auto;
+    color: black;
+}
+#productos .product-1{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    color: black;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+    ),url("../img/creacion-bd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+#productos .product-2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    color: black;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(5,7,12,0.75),
+        rgba(5,7,12,0.75)
+    ),url("../img/gestion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+#productos .product-3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    color: black;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(5,7,12,0.75),
+        rgba(5,7,12,0.75)
+    ),url("../img/tecnico.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+#productos .product-1 h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+#productos .product-1 p{
+    color: aliceblue;
+    font-size: 30px;
+}
+#productos .product-2 h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+#productos .product-2 p{
+    color: aliceblue;
+    font-size: 30px;
+}
+#productos .product-3 h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+#productos .product-3 p{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#contacto{
+    margin-top: -5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+    color: black;
+}
+#contacto h2{
+    font-size: 35px;
+}
+#contacto button{
+    border-radius: 10px;
+    background-color: rgb(45, 76, 211);
+}
+
+footer{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(5,7,12,0.75),
+        rgba(5,7,12,0.75)
+    ),url("../img/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.fin{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+}
+@media (min-width:720px){
+    body{
+        margin: 0;
+    }
+    header{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        height: 100px;
+    }
+    p{
+        font-size: 2em;
+    }
+    .logo{
+        display: flex;
+        margin-left: 120px;
+        padding: auto;
+        font-size: 40px;
+    }
+    .instagram  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 20px;
+       
+    }
+     .instagram img{
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+    .youtube{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 50px;
+       
+    }
+    .youtube img{
+        width: 55px;
+        height: 52px;
+        margin: auto;
+    }
+    #galery{
+        display: flex;
+        margin: auto;
+        display: flex;
+        width: 700px;
+        height: 550px;
+    }
+    #galery img{
+        display: flex;
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    #galery img:hover{
+        display: flex;
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    p iframe{
+        display:none;
+    }
+
+     #productos{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        display: flex;
+        height: 20vh;
+        margin-bottom: 30vh;
+     }
+     
+    
+    #productos .product-1{
+        height: 60vh;
+        display: flex;
+        width: 70vh;
+    }
+    #productos .product-2{
+        height: 60vh;
+        display: flex;
+        width: 70vh;
+    }
+    #productos .product-3{
+        height: 60vh;
+        display: flex;
+        width: 70vh;
+    }
+    #quix3{
+        width: 100%;
+        height: 40vh;
+    }
+    #quix2 video{
+        width: 2080px;
+        height: 600px;
+    }
+    .fin{
+        margin-top: 5vh;
+    }
+}
+
